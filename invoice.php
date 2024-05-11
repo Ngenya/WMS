@@ -94,7 +94,7 @@ th {
                         <span class="icon">
                             <ion-icon name="lock-closed-outline"></ion-icon>
                         </span>
-                        <span class="title">Password</span>
+                        <span class="title">Invoice</span>
                     </a>
                 </li>
 
@@ -154,7 +154,7 @@ th {
                               <p id="invDate">23</p>
                             </div>
                             <div class="invDate">
-                              <p class="date">INVOICE#</p>
+                              <p class="date">INVOICE:</p>
                               <p id="invNumber"></p>
                             </div>
                           </div>
