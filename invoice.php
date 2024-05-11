@@ -45,7 +45,7 @@ th {
                 </li>
 
                 <li>
-                    <a href="#">
+                    <a href="Dashboard.php">
                         <span class="icon">
                             <ion-icon name="home-outline"></ion-icon>
                         </span>
@@ -54,7 +54,7 @@ th {
                 </li>
 
                 <li>
-                    <a href="WareHouses.html">
+                    <a href="WareHouses.php">
                         <span class="icon">
                             <ion-icon name="people-outline"></ion-icon>
                         </span>
@@ -72,7 +72,7 @@ th {
                 </li>
 
                 <li>
-                    <a href="Security.html">
+                    <a href="Security.php">
                         <span class="icon">
                             <ion-icon name="help-outline"></ion-icon>
                         </span>
@@ -140,22 +140,22 @@ th {
                         <header>
                           <p class="logo">WMS</p>
                           <p class="logohead">WMS INVOICE</p>
-                        </header>
+                        </header><br>
                   
                         <div class="info">
                           <div class="iContent">
                             <p class="invH">INVOICE TO</p>
-                            <p id="invName">demo</p>
-                            <p id="invAddress">12345</p>
+                            <label for="name"></label>
+                            <input type="text" name="name" id="name" required>
                           </div>
                           <div class="iContent1">
                             <div class="invDate">
-                              <p class="date">DATE:</p>
-                              <p id="invDate">23</p>
-                            </div>
+                              <label for="name" class="date">DATE:</label>
+                            <input type="date" name="name" id="name" required>
+                            </div><br>
                             <div class="invDate">
-                              <p class="date">INVOICE:</p>
-                              <p id="invNumber"></p>
+                              <label for="name" class="date">INVOICE No.</label>
+                            <input type="text" name="name" id="name" required>
                             </div>
                           </div>
                         </div>

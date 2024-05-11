@@ -1,0 +1,143 @@
+:root {
+  --primary-color: #2a2185;
+  --secondary-color: white;
+  --decoration-color: black;
+  --grey: #f2f2f2;
+  --primary-font: "Ubuntu", sans-serif;
+}
+body {
+  box-sizing: border-box;
+  height: 100vh;
+}
+p {
+  margin: 0.5rem;
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+  width: 46rem;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 4rem;
+}
+
+/* header section styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 5rem;
+  align-items: center;
+}
+
+/* logo styles */
+.logo {
+  font-family: var(--primary-font);
+  color: var(--primary-color);
+  font-weight: 900;
+  font-size: 3rem;
+  width: 50%;
+}
+.logohead {
+  font-family: var(--primary-font);
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  font-weight: 900;
+  font-size: 2rem;
+  padding-right: 1rem;
+}
+
+/* info styles */
+.info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 5rem;
+  align-items: center;
+  height: fit-content;
+}
+.invH {
+  font-weight: 600;
+  font-family: var(--primary-font);
+  color: var(--primary-color);
+  margin-bottom: 0;
+}
+#invName,
+#invAddress {
+  text-transform: uppercase;
+  font-family: var(--primary-font);
+  font-weight: 400;
+}
+.iContent1 {
+  padding-right: 1rem;
+}
+.invDate {
+  display: flex;
+  justify-content: space-between;
+}
+.date {
+  font-weight: 500;
+  color: var(--primary-color);
+  font-family: var(--primary-font);
+}
+#invNumber,
+#invDate {
+  font-weight: 400;
+  font-family: var(--primary-font);
+}
+
+/* table */
+table {
+  margin-top: 2rem;
+  width: 100%;
+}
+tr,
+td,
+th,
+table {
+  border: 1px solid var(--decoration-color);
+  border-collapse: collapse;
+}
+th {
+  text-align: center;
+  background-color: var(--grey);
+  font-family: var(--primary-font);
+  color: var(--decoration-color);
+}
+
+/* footer */
+footer {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 2rem;
+}
+.left {
+  width: 50%;
+}
+.right {
+  width: 50%;
+  background-color: #3f3791;
+}
+footer div {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--primary-font);
+}
+.subTotal {
+  color: var(--secondary-color);
+  text-align: left;
+  padding-left: 40%;
+  font-weight: 500;
+}
+.total {
+  color: var(--secondary-color);
+}
