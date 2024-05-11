@@ -91,11 +91,11 @@ $result= mysqli_query($con,$query);
                 </li>
 
                 <li>
-                    <a href="#">
+                    <a href="Invoice.php">
                         <span class="icon">
                             <ion-icon name="lock-closed-outline"></ion-icon>
                         </span>
-                        <span class="title">Password</span>
+                        <span class="title">Invoice</span>
                     </a>
                 </li>
 

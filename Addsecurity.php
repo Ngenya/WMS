@@ -57,7 +57,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 </li>
 
                 <li>
-                    <a href="index.html">
+                    <a href="Dashboard.php">
                         <span class="icon">
                             <ion-icon name="home-outline"></ion-icon>
                         </span>
@@ -66,7 +66,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 </li>
 
                 <li>
-                    <a href="#">
+                    <a href="WareHouses.php">
                         <span class="icon">
                             <ion-icon name="people-outline"></ion-icon>
                         </span>
@@ -84,7 +84,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 </li>
 
                 <li>
-                    <a href="Security.html">
+                    <a href="Security.php">
                         <span class="icon">
                             <ion-icon name="help-outline"></ion-icon>
                         </span>
@@ -102,11 +102,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 </li>
 
                 <li>
-                    <a href="#">
+                    <a href="Invoice.php">
                         <span class="icon">
                             <ion-icon name="lock-closed-outline"></ion-icon>
                         </span>
-                        <span class="title">Password</span>
+                        <span class="title">Invoice</span>
                     </a>
                 </li>
 
